@@ -63,11 +63,6 @@ class Book_1  {
             return this;
         }
 
-        public Builder setDescription(String description) {
-            this.description = description;
-            return this;
-        }
-
         public Book_1 build() {
             return new Book_1(this);
         }
